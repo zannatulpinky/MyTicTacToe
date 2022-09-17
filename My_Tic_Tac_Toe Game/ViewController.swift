@@ -12,9 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var a1: UIButton!
     @IBOutlet weak var a2: UIButton!
     @IBOutlet weak var a3: UIButton!
+    
     @IBOutlet weak var b1: UIButton!
     @IBOutlet weak var b2: UIButton!
     @IBOutlet weak var b3: UIButton!
+    
     @IBOutlet weak var c1: UIButton!
     @IBOutlet weak var c2: UIButton!
     @IBOutlet weak var c3: UIButton!
@@ -26,11 +28,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-    
-    @IBAction func handleClickBtn(_ sender: Any)
+
+    @IBAction func clickBtn(_ sender: UIButton)
     {
     }
-    
-   
 }
 
