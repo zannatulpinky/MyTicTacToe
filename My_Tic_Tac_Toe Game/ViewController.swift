@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    //Take enumeration for handleClick so we can use easily true or false
+    //Take enumeration so we can use easily true or false
     enum Turn {
         case CROSS
         case NAUGHT
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
       return true
     }
     
-    //For reset play board
+    //For reset playBoard
     func resetPlayBoard() {
         for btn in playBoard {
             btn.configuration = .plain()
@@ -82,7 +82,17 @@ class ViewController: UIViewController {
         handleClick(sender)
         if(checkingPlayBoardForFull()){
           //print ("Tie")   // When whole board full it shows Tie
+            resultAleart(message: "Tie")
         }
+    }
+    
+    //for alert message
+    func resultAleart(message: String) {
+        let alert = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "Reset", style: .cancel,handler: { UIAlertAction in
+            self.resetPlayBoard()
+        }))
+        self.present(alert, animated: true)
     }
     
     //This function for all buttons activities
