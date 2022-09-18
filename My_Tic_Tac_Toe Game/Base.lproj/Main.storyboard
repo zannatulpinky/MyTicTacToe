@@ -29,7 +29,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeO-bd-TKq"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x12-vb-jmS"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZE7-S2-2Kz"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOO-AG-Rvy"/>
                                                 </connections>
@@ -41,7 +41,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3F-CB-abM"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ds9-Mf-GmV"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jM-ob-xLp"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqK-ia-qR4"/>
                                                 </connections>
@@ -53,7 +53,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZYl-0Y-kG3"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmi-YA-ars"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b1V-cz-Rsx"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZ5-nF-52z"/>
                                                 </connections>
@@ -70,7 +70,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kzh-pJ-37C"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7b-IM-vcW"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cwd-Xo-QPi"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFw-R2-5SP"/>
                                                 </connections>
@@ -82,7 +82,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zzW-Gy-RXc"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IqR-1a-JpP"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SMC-yr-0f0"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9W-1H-Sat"/>
                                                 </connections>
@@ -94,7 +94,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jEd-lv-ayC"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yg9-Ne-efJ"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTl-l9-dcy"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nE9-f3-GuT"/>
                                                 </connections>
@@ -111,7 +111,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ly-J3-vi3"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2d-AW-4ns"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJO-gA-wSX"/>
                                                 </connections>
                                             </button>
@@ -122,7 +122,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pxO-53-CZI"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwX-hK-ttI"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oyk-Ld-VMd"/>
                                                 </connections>
                                             </button>
@@ -133,7 +133,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtK-ih-fW9"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NoM-ay-0j1"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CjU-22-Gug"/>
                                                 </connections>
                                             </button>
