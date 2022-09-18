@@ -35,14 +35,28 @@ class ViewController: UIViewController {
     
     var currentTurn = Turn.CROSS
     
+    var playBoard = [UIButton]()//Buttons array
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        initPlayBoard()// Call initialize board
         
     }
-
-  
-    @IBAction func clickBtn(_ sender: UIButton) {
-        
+    //Initialize the play Board
+    func initPlayBoard() {
+        playBoard.append(a1)
+        playBoard.append(a2)
+        playBoard.append(a3)
+        playBoard.append(b1)
+        playBoard.append(b2)
+        playBoard.append(b3)
+        playBoard.append(c1)
+        playBoard.append(c2)
+        playBoard.append(c3)
+    }
+    @IBAction func clickBtn(_ sender: UIButton)
+    {
+        handleClick(sender)
     }
     
     //This function for all buttons activities

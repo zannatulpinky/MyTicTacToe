@@ -29,7 +29,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x12-vb-jmS"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UHm-j9-28e"/>
                                                     <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZE7-S2-2Kz"/>
                                                     <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOO-AG-Rvy"/>
                                                 </connections>
@@ -179,9 +179,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="a1" destination="5CX-Ah-7Y5" id="qsD-sZ-en8"/>
-                        <outlet property="a2" destination="5mE-bU-S1t" id="7Tb-WF-azs"/>
-                        <outlet property="a3" destination="c0A-c5-xme" id="7x5-up-jm1"/>
+                        <outlet property="a1" destination="5CX-Ah-7Y5" id="WdM-kp-sK7"/>
+                        <outlet property="a2" destination="5mE-bU-S1t" id="d65-ec-kCh"/>
+                        <outlet property="a3" destination="c0A-c5-xme" id="Z6y-z3-y39"/>
                         <outlet property="b1" destination="lV7-oz-BAM" id="1iD-qz-9Em"/>
                         <outlet property="b2" destination="XKM-Cb-mnI" id="A0D-Gm-pzh"/>
                         <outlet property="b3" destination="3q4-V3-fWv" id="oaT-yV-R1F"/>
