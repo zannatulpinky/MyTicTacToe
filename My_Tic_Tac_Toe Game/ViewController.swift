@@ -54,9 +54,25 @@ class ViewController: UIViewController {
         playBoard.append(c2)
         playBoard.append(c3)
     }
+    
+    //For checking play board full or not
+    func checkingPlayBoardForFull() -> Bool {
+        for btn in playBoard {
+            if btn.title(for: .normal) == nil {
+                return false
+            }
+        }
+        
+      return true
+    }
+    
+    
     @IBAction func clickBtn(_ sender: UIButton)
     {
         handleClick(sender)
+        if(checkingPlayBoardForFull()){
+          //print ("Tie")   // When whole board full it shows Tie
+        }
     }
     
     //This function for all buttons activities
