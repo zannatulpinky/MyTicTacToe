@@ -88,7 +88,7 @@ class ViewController: UIViewController {
     
     //for alert message
     func resultAleart(message: String) {
-        let alert = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: message, message: nil, preferredStyle: .actionSheet)
         alert.addAction(UIAlertAction(title: "Reset", style: .cancel,handler: { UIAlertAction in
             self.resetPlayBoard()
         }))
