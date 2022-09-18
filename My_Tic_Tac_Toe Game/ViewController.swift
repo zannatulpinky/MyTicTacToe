@@ -66,6 +66,16 @@ class ViewController: UIViewController {
       return true
     }
     
+    //For reset play board
+    func resetPlayBoard() {
+        for btn in playBoard {
+            btn.configuration = .plain()
+            btn.setTitle(nil, for: .normal)
+        }
+        currentTurn = Turn.CROSS
+        turnLable.text = crossLable
+    }
+    
     
     @IBAction func clickBtn(_ sender: UIButton)
     {

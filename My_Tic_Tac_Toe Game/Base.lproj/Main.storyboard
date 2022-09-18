@@ -29,9 +29,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UHm-j9-28e"/>
-                                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZE7-S2-2Kz"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOO-AG-Rvy"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEE-OV-F4Z"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mE-bU-S1t">
@@ -41,9 +39,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ds9-Mf-GmV"/>
-                                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jM-ob-xLp"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqK-ia-qR4"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMe-il-1Vm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0A-c5-xme">
@@ -53,9 +49,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmi-YA-ars"/>
-                                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b1V-cz-Rsx"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZ5-nF-52z"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GMf-Jb-h6K"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -70,9 +64,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7b-IM-vcW"/>
-                                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cwd-Xo-QPi"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFw-R2-5SP"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZMm-QR-Jcp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKM-Cb-mnI">
@@ -82,9 +74,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IqR-1a-JpP"/>
-                                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SMC-yr-0f0"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9W-1H-Sat"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jaV-bq-hbp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q4-V3-fWv">
@@ -94,9 +84,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yg9-Ne-efJ"/>
-                                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTl-l9-dcy"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nE9-f3-GuT"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iqs-84-hbK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -111,8 +99,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2d-AW-4ns"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJO-gA-wSX"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fgV-Nx-QDY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBc-84-1qt">
@@ -122,8 +109,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jwX-hK-ttI"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oyk-Ld-VMd"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N8x-BL-Gne"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Lb-oj-E7G">
@@ -133,8 +119,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NoM-ay-0j1"/>
-                                                    <action selector="handleClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CjU-22-Gug"/>
+                                                    <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HvU-vm-zCh"/>
                                                 </connections>
                                             </button>
                                         </subviews>
