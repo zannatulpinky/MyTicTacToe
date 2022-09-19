@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         initPlayBoard()// Call initialize board
         
     }
+    
     //Initialize the play Board
     func initPlayBoard() {
         playBoard.append(a1)
@@ -76,12 +77,20 @@ class ViewController: UIViewController {
         turnLable.text = crossLable
     }
     
+    func forWinningPlayer() {
+        
+    }
+    
+    func forCheckingBtn(_ button:UIButton,_ s:String) -> Bool {
+        return button.title(for: .normal) == s
+    }
+    
     
     @IBAction func clickBtn(_ sender: UIButton)
     {
         handleClick(sender)
         if(checkingPlayBoardForFull()){
-          //print ("Tie")   // When whole board full it shows Tie
+          //print ("Tie")  ........  When whole board full it shows Tie
             resultAleart(message: "Tie")
         }
     }
