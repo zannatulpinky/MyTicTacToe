@@ -37,6 +37,9 @@ class ViewController: UIViewController {
     
     var playBoard = [UIButton]()//Buttons array
     
+    var showResultForCross = 0
+    var showResultForNaught = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initPlayBoard()// Call initialize board
@@ -77,10 +80,41 @@ class ViewController: UIViewController {
         turnLable.text = crossLable
     }
     
-    func forWinningPlayer() {
+    //To check the winners
+    func checkForWinningResult(_ s:String)-> Bool {
         
+        if forCheckingBtn(a1, s) && forCheckingBtn(a2, s) && forCheckingBtn(a3, s){
+            return true
+        }
+        else if forCheckingBtn(a1, s) && forCheckingBtn(b2, s) && forCheckingBtn(c3, s){
+            return true
+        }
+        else if forCheckingBtn(a1, s) && forCheckingBtn(b1, s) && forCheckingBtn(c1, s){
+            return true
+        }
+        
+        
+        if forCheckingBtn(b1, s) && forCheckingBtn(b2, s) && forCheckingBtn(b3, s){
+            return true
+        }
+        else if forCheckingBtn(a2, s) && forCheckingBtn(b2, s) && forCheckingBtn(c2, s){
+            return true
+        }
+    
+        
+        if forCheckingBtn(c1, s) && forCheckingBtn(c2, s) && forCheckingBtn(c3, s){
+            return true
+        }
+        else if forCheckingBtn(c1, s) && forCheckingBtn(b2, s) && forCheckingBtn(a3, s){
+            return true
+        }
+        else if forCheckingBtn(a3, s) && forCheckingBtn(b3, s) && forCheckingBtn(c3, s){
+            return true
+        }
+        return false
     }
     
+    // for check button title and string
     func forCheckingBtn(_ button:UIButton,_ s:String) -> Bool {
         return button.title(for: .normal) == s
     }
@@ -89,6 +123,18 @@ class ViewController: UIViewController {
     @IBAction func clickBtn(_ sender: UIButton)
     {
         handleClick(sender)
+       
+        if checkForWinningResult(crossLable){
+            resultAleart(message: "Cross is Win")
+            showResultForCross += 1
+            scoreLabel.text = "Cross Score : \(showResultForCross)\n Naught Score : \(showResultForNaught)"
+        }
+        
+        if checkForWinningResult(naughtLable){
+            resultAleart(message: "Naught is Win")
+            showResultForNaught += 1
+            scoreLabel.text = "Cross Score : \(showResultForCross)\n Naught Score : \(showResultForNaught)"         }
+        
         if(checkingPlayBoardForFull()){
           //print ("Tie")  ........  When whole board full it shows Tie
             resultAleart(message: "Tie")
